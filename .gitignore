@@ -27,3 +27,6 @@ apikey*
 # 老師資料與舊版簡報：不放在公開的 repo
 teacher/
 本機Antigravity入門_從安裝到做出App.pptx
+
+# 打包下載用的壓縮檔
+*.zip
