@@ -36,15 +36,19 @@ Skill 是寫給 AI 的**工作說明書**：告訴它某一類任務該怎麼做
 
 ## Step 2：安裝 Skill
 
-兩個 Skill 都請 AI 幫你裝好：老師的 project-report 已經放在這台電腦的 `C:\Tools\skills\project-report`。
+兩個 Skill 都請 AI 幫你裝好。老師的 project-report 放在課程的 GitHub repo（`gemini960114/idea-to-app`），pptx 放在 Anthropic 的 repo，安裝方式一樣：
 
 **Prompt 2：安裝 Skill**
 
 ```text
-請把 C:\Tools\skills\project-report 整個資料夾複製到這個資料夾的 .agents/skills/project-report。
-再安裝 pptx skill，執行：npx skills add anthropics/skills@pptx -a antigravity --copy -y
+請在這個資料夾安裝兩個 skill，依序執行：
+npx skills add gemini960114/idea-to-app@project-report -a antigravity --copy -y
+npx skills add anthropics/skills@pptx -a antigravity --copy -y
 完成後列出 .agents/skills/ 裡有哪些 skill。
 ```
+
+> [!NOTE]
+> project-report 安裝失敗的話，請 AI「把 C:\Tools\skills\project-report 整個資料夾複製到這個資料夾的 .agents/skills/project-report」，老師每次上課前也會把它放在這台電腦上。
 
 列出的清單裡要有 `pptx` 和 `project-report`。點開 `.agents/skills/project-report/SKILL.md` 看看：老師在裡面要求 AI「沒有來源的內容一律不寫」，你能找到這一句嗎？
 
