@@ -1,0 +1,29 @@
+# 教學網站：由 scripts/sync-docs.mjs 產生的頁面、附件與 VitePress 建置結果
+docs/guide/
+docs/public/files/
+docs/.vitepress/cache/
+docs/.vitepress/.temp/
+docs/.vitepress/dist/
+node_modules/
+
+# 作業系統自動產生的檔案
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# 延伸 B 的課本 Markdown（由課本 PDF 轉換，有版權）：只在課堂上發給學生，不進 git、不放上網站
+extra-b-textbook-notes/textbook/
+
+# 電腦教室安裝包：download.ps1 下載的安裝檔（體積大），不進 git
+setup/installers/
+
+# 金鑰與環境設定檔：永遠不要上傳
+.env*
+!.env.example
+apikey*
+*.pem
+
+# 老師資料與舊版簡報：不放在公開的 repo
+teacher/
+本機Antigravity入門_從安裝到做出App.pptx
