@@ -42,14 +42,14 @@ export default defineConfig({
         ]
       },
       {
-        text: '📅 第三～七堂',
+        text: '📚 講義',
         items: [
-          { text: '🧰 01 安裝環境（第三堂）', link: '/guide/01_install' },
-          { text: '📦 02 接手自己的專案（第三堂）', link: '/guide/02_my_project' },
-          { text: '🔗 03 功能改進與 GitHub（第四堂）', link: '/guide/03_github' },
-          { text: '🌀 04 改造開源作品（第五堂）', link: '/guide/04_open_source' },
-          { text: '📊 05 用 Skill 整理成果（第六堂）', link: '/guide/05_skill_report' },
-          { text: '🎤 06 成果發表（第七堂）', link: '/guide/06_showcase' }
+          { text: '🧰 01 安裝環境', link: '/guide/01_install' },
+          { text: '📦 02 接手自己的專案', link: '/guide/02_my_project' },
+          { text: '🔗 03 功能改進與 GitHub', link: '/guide/03_github' },
+          { text: '🌀 04 改造開源作品', link: '/guide/04_open_source' },
+          { text: '📊 05 用 Skill 整理成果', link: '/guide/05_skill_report' },
+          { text: '🎤 06 成果發表', link: '/guide/06_showcase' }
         ]
       },
       {

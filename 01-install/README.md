@@ -1,4 +1,4 @@
-# 第三堂（上）｜安裝環境：Antigravity 與課程工具
+# 安裝環境：Antigravity 與課程工具
 
 約 20 分鐘。開啟 **Antigravity IDE**、開啟專案資料夾並調整版面、準備好 AI Agent，再請 AI 確認課程工具都能使用，最後用一個小暖身確認 AI 能正常工作。
 
@@ -68,14 +68,14 @@ AI 要執行指令時會先詢問權限，請點 **Accept / Run**（這是正常
 找不到的請列出來，先不要安裝。
 ```
 
-| 工具 | 用途 | 哪一堂會用到 |
+| 工具 | 用途 | 什麼時候會用到 |
 | :--- | :--- | :--- |
-| **Git** | 記錄作品的每一個版本 | 第三～六堂 |
-| **GitHub CLI（gh）** | 登入 GitHub、建立 repo、發布網頁 | 第三～六堂 |
-| **Node.js**（含 npm） | 執行你的 App、安裝 Skill | 第三～六堂 |
-| **uv** | 執行 Python 程式（做簡報時會用到） | 第六堂 |
-| **LibreOffice** | 把簡報轉成圖片，讓 AI 檢查版面 | 第六堂 |
-| **ffmpeg** | 影片、聲音處理 | 第七堂（選做） |
+| **Git** | 記錄作品的每一個版本 | 大部分單元 |
+| **GitHub CLI（gh）** | 登入 GitHub、建立 repo、發布網頁 | 大部分單元 |
+| **Node.js**（含 npm） | 執行你的 App、安裝 Skill | 大部分單元 |
+| **uv** | 執行 Python 程式 | 做成果簡報 |
+| **LibreOffice** | 把簡報轉成圖片，讓 AI 檢查版面 | 做成果簡報 |
+| **ffmpeg** | 影片、聲音處理 | 成果發表（選做） |
 | **pandoc** | 把 Markdown 轉成 Word 檔 | 延伸 A（選做） |
 
 全部都有版本號就完成了。有工具找不到時，**舉手告訴老師**：電腦教室的帳號沒有安裝軟體的權限，請不要讓 AI 自己安裝。
@@ -105,7 +105,7 @@ AI 要執行指令時會先詢問權限，請點 **Accept / Run**（這是正常
 | 時機 | 要做的事 |
 | :--- | :--- |
 | **上課開始** | 開啟 Antigravity、登入 Google，再用下面的 Prompt [登入 GitHub](#登入-github每次上課都要做) |
-| **接續上週的作品** | 請 AI 把上週推上 GitHub 的 repo clone 回來，例如「請把我 GitHub 上的 my-app clone 到這個資料夾」 |
+| **接續上次的作品** | 請 AI 把上次推上 GitHub 的 repo clone 回來，例如「請把我 GitHub 上的 my-app clone 到這個資料夾」 |
 | **下課前** | ① 把當天的作品**推上 GitHub**（各單元結尾有說明），並到 GitHub 網頁確認看得到<br>② 對 AI 說「執行 gh auth logout 登出 GitHub」<br>③ **重新開機**：電腦還原時，會一併清掉 Antigravity、瀏覽器裡所有登入的帳號 |
 
 > [!WARNING]
@@ -235,4 +235,4 @@ pandoc、LibreOffice、ffmpeg。LibreOffice 安裝檔約 300～400 MB，下載�
 
 ---
 
-👉 完成後，請進入 **[第三堂（下）：接手自己的專案](../02-my-project/README.md)**。
+👉 完成後，請進入 **[接手自己的專案](../02-my-project/README.md)**。

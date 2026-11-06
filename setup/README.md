@@ -8,7 +8,7 @@
 | `install.bat` ＋ `install.ps1` | 靜默安裝所有工具，並設定系統 PATH | 每週上課前，在每台電腦以**系統管理員身分**執行 |
 | `check.bat` | 檢查每個工具都找得到，列出版本 | 安裝完成後 |
 
-安裝的工具：Antigravity IDE、Git、GitHub CLI、uv、Node.js（LTS）、pandoc、LibreOffice、ffmpeg，以及第六堂的 project-report Skill（複製到 `C:\Tools\skills\`）。全部約 800 MB～1 GB。
+安裝的工具：Antigravity IDE、Git、GitHub CLI、uv、Node.js（LTS）、pandoc、LibreOffice、ffmpeg，以及做成果簡報用的 project-report Skill（複製到 `C:\Tools\skills\`）。全部約 800 MB～1 GB。
 
 ---
 
@@ -22,7 +22,7 @@
    ```
 
 3. 到 <https://antigravity.google/download> 下載 **Antigravity IDE (Standalone)** 的 Windows x64 安裝檔，放進 `installers\antigravity\`（這個檔案沒辦法自動下載）。
-4. 把整個 `setup` 資料夾，以及課程的 `skills` 資料夾，**並排**複製到 USB（USB 根目錄要同時看得到 `setup` 和 `skills`）。install 時會把第六堂用的 project-report Skill 複製到每台電腦的 `C:\Tools\skills\`。12 台電腦建議準備 **2～3 支 USB**，複製時才不用排隊。
+4. 把整個 `setup` 資料夾，以及課程的 `skills` 資料夾，**並排**複製到 USB（USB 根目錄要同時看得到 `setup` 和 `skills`）。install 時會把做成果簡報用的 project-report Skill 複製到每台電腦的 `C:\Tools\skills\`。12 台電腦建議準備 **2～3 支 USB**，複製時才不用排隊。
 
 ## 二、第一次正式使用前：先在一台電腦測試
 

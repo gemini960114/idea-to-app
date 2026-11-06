@@ -1,16 +1,16 @@
-# 第六堂｜用 Skill 整理成果：做出查得到出處的成果簡報
+# 用 Skill 整理成果：做出查得到出處的成果簡報
 
-第六堂，約 100 分鐘。使用老師提供的 **project-report Skill**，把你這幾堂的實作紀錄（e-Peer 紀錄、GitHub 的修改紀錄、截圖）整理成一份成果簡報和講者備註，並確認內容**符合你自己的實作過程**。
+約 100 分鐘。使用老師提供的 **project-report Skill**，把你這段時間的實作紀錄（e-Peer 紀錄、GitHub 的修改紀錄、截圖）整理成一份成果簡報和講者備註，並確認內容**符合你自己的實作過程**。
 
 **重點：簡報是 AI 幫你整理的，內容是你的。** 每一句話都要在你的實作紀錄裡找得到，不是你做的事不能寫。
 
-> **課前準備**：完成第五堂的 [改造開源作品](../04-open-source/README.md)。第三～五堂的 e-Peer 都有寫紀錄。
+> **課前準備**：完成 [改造開源作品](../04-open-source/README.md)。之前每次上課都有寫 e-Peer 紀錄。
 
 ---
 
 ## 什麼是 Skill？
 
-Skill 是寫給 AI 的**工作說明書**：告訴它某一類任務該怎麼做、要遵守哪些規則、可以用哪些工具。它是一個資料夾，裡面有一份 `SKILL.md`。這堂課會用到兩個：
+Skill 是寫給 AI 的**工作說明書**：告訴它某一類任務該怎麼做、要遵守哪些規則、可以用哪些工具。它是一個資料夾，裡面有一份 `SKILL.md`。這個單元會用到兩個：
 
 | Skill | 誰做的 | 做什麼 |
 | :--- | :--- | :--- |
@@ -25,13 +25,13 @@ Skill 是寫給 AI 的**工作說明書**：告訴它某一類任務該怎麼做
 
 1. 在「文件」裡新建一個空資料夾 `my-report`，用 **Open Folder** 打開。
 2. 照 [登入 GitHub](../01-install/README.md#登入-github每次上課都要做) 的步驟登入。
-3. 在 `my-report` 裡建立 `records` 資料夾，新增一個檔案 `e-peer.md`，把你第三～五堂寫在 e-Peer 的紀錄**複製貼上**，每堂前面標上「第三堂」「第四堂」「第五堂」。
+3. 在 `my-report` 裡建立 `records` 資料夾，新增一個檔案 `e-peer.md`，把你之前寫在 e-Peer 的紀錄**複製貼上**，每一則前面標上日期。
 4. 把作品截圖放進 `my-report` 的 `images` 資料夾。截圖都在你作品 repo 的 `screenshots` 資料夾裡，請 AI 幫你拿過來：
 
    **Prompt 1：拿回截圖**
 
    ```text
-   請從我 GitHub 上的〔第四堂的作品 repo 名稱〕和〔第五堂的 repo 名稱〕，把 screenshots 資料夾裡的圖片下載到這個資料夾的 images 資料夾。
+   請從我 GitHub 上的〔你的作品 repo 名稱〕和〔改造開源作品時的 repo 名稱〕，把 screenshots 資料夾裡的圖片下載到這個資料夾的 images 資料夾。
    ```
 
 ## Step 2：安裝 Skill
@@ -54,13 +54,13 @@ Skill 是寫給 AI 的**工作說明書**：告訴它某一類任務該怎麼做
 
 ```text
 請用 project-report skill 整理我的實作紀錄。
-我的作品 repo 是〔你的 GitHub 帳號〕/〔repo 名稱，例如 my-app〕，第五堂的 repo 是〔例如 my-fourier〕。
+我的作品 repo 是〔你的 GitHub 帳號〕/〔repo 名稱，例如 my-app〕，改造開源作品的 repo 是〔例如 my-fourier〕。
 先做到時間軸（records/timeline.md）就好。
 ```
 
 打開 `records/timeline.md` 檢查：
 
-- [ ] 每一堂做的事，和你記得的一樣嗎？
+- [ ] 每一次做的事，和你記得的一樣嗎？
 - [ ] 有沒有你沒做過的事？
 - [ ] 「AI 犯錯、你發現並修正」的事件有被標出來嗎？漏掉的，直接告訴 AI 補上。
 
@@ -142,4 +142,4 @@ talk.md 我確認過了，請做成 report.pptx，配色〔例如：深色背景
 
 ---
 
-👉 下一堂：**[第七堂：成果發表](../06-showcase/README.md)**。
+👉 下一步：**[成果發表](../06-showcase/README.md)**。
